@@ -1,5 +1,7 @@
+print ("Are you good bro?")
 
-print ("Hello world")
-print (6+8)
 
-print ("dette er en test")
+var = input("Yes/no: ")
+print ("Thank you for your respons"), var,
+
+   
