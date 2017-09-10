@@ -9,8 +9,8 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
-var = input("Yes/no: ")
-print ("Thank you for your respons"), var,
-
+print bcolors.WARNING 
+    (var = input("Yes/no: ")
+    print ("Thank you for your respons"), var,)
+    + bcolors.ENDC
   
