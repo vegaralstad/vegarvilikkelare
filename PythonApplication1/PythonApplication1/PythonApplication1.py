@@ -1,16 +1,20 @@
+import webbrowser
+
+url1 = ""
+url2 = ""
 
 print ("Are you good bro?")
 
 
 var = input("Yes/no: ")
-if var == "yes": import webbrowser
-new=2;
-url="https://www.youtube.com/watch?v=6xsDdIByh8A"
-webbrowser.open(url,new=new);
+if var == "yes": 
 
-if var== "no": import webbrowser
-new=2;
-url="https://www.youtube.com/watch?v=6xsDdIByh8A"
-webbrowser.open(url,new=new);
+    
+    webbrowser.open(url1, 2, False);
+
+if var == "no":
+
+    
+    webbrowser.open(url2, 2, False);
  
 print ("Thank you for your respons"), var, 
